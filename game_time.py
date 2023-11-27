@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+"""
+This is a tic-tac-toe game where two players are needed to
+play the game. 
+"""
 def print_board(board):
     for row in board:
         print(" | ".join(row))
